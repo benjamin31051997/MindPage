@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFF</color>
+    <color name="colorPrimaryDark">#8C8C8C</color>
+    <color name="colorAccent">#000</color>
+
+    <color name="black">#000</color>
+    <color name="black_trans">#99000000</color>
+    <color name="grey_m3">#414141</color>
+    <color name="grey_m2">#555555</color>
+    <color name="grey_m1">#696969</color>
+    <color name="grey">#7D7D7D</color>
+    <color name="grey_trans90">#907D7D7D</color>
+    <color name="grey_trans50">#507D7D7D</color>
+    <color name="grey_p1">#878787</color>
+    <color name="grey_p2">#9B9B9B</color>
+    <color name="grey_p3">#AFAFAF</color>
+    <color name="grey_p4">#C3C3C3</color>
+    <color name="grey_p5">#D7D7D7</color>
+    <color name="grey_p6">#EBEBEB</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_tr20">#20FFFFFF</color>
+    <color name="white_tr30">#30FFFFFF</color>
+    <color name="white_tr40">#40FFFFFF</color>
+    <color name="white_tr50">#50FFFFFF</color>
+    <color name="white_tr60">#60FFFFFF</color>
+    <color name="white_tr70">#70FFFFFF</color>
+    <color name="white_tr80">#80FFFFFF</color>
+    <color name="white_tr90">#90FFFFFF</color>
+    <color name="white_tr99">#99FFFFFF</color>
+
+    <color name="div_grey">#989898</color>
+
+    <color name="orange">#FF3707</color>
+    <color name="orange_tr50">#504B2004</color>
+    <color name="orange_tr70">#704B2004</color>
+
+    <color name="red">#FF090A</color>
+    <color name="red_tr50">#506D0809</color>
+    <color name="red_tr70">#706D0809</color>
+
+
+
+</resources>

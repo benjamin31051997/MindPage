@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/comn_info_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <LinearLayout
+        android:id="@+id/dialog_head_lyout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/dialog_head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Warning"
+            android:fontFamily="@font/raleway_bold"
+            android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
+            android:padding="@dimen/dimen_5dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_1dp"
+            android:background="@color/div_grey"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/dialog_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Do you want to exit the apk"
+        android:padding="@dimen/dimen_10dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/raleway_semibold"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:layout_marginTop="@dimen/dimen_10dp">
+
+        <Button
+            android:id="@+id/dialog_cancel"
+            android:layout_width="60dp"
+            android:layout_height="@dimen/dimen_30dp"
+            android:text="Cancel"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:background="@android:color/transparent"
+            android:textStyle="bold"
+            android:fontFamily="@font/raleway"
+            android:visibility="gone"/>
+        <Button
+            android:id="@+id/dialog_ok"
+            android:layout_width="50dp"
+            android:layout_height="@dimen/dimen_30dp"
+            android:text="OK"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:background="@android:color/transparent"
+            android:textColor="@color/orange"
+            android:textStyle="bold"
+            android:fontFamily="@font/raleway_bold"
+            android:layout_marginLeft="@dimen/dimen_10dp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MindPage</string>
+    <string name="open">Open drawer</string>
+    <string name="cls">Close drawer</string>
+</resources>
